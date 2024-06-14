@@ -16,9 +16,9 @@ Our app offers a comprehensive social media experience, designed to keep you con
 
 ## 📸 Screenshots
 
-![Login Page]([screenshots/signup.png](https://github.com/shivamnit123/socialpulse/blob/main/login.png))
-![Home Page]([screenshots/home.png](https://github.com/shivamnit123/socialpulse/blob/main/homepage.png))
-![Chat Interface](screenshots/chat.png)
+![Login Page]((https://github.com/shivamnit123/socialpulse/blob/main/login.png))
+![Home Page]((https://github.com/shivamnit123/socialpulse/blob/main/homepage.png))
+![Chat Interface]((https://github.com/shivamnit123/socialpulse/blob/main/chat.png))
 
 ## 🛠️ Technology Stack
 
