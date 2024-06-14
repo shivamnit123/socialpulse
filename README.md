@@ -33,10 +33,3 @@ Our app offers a comprehensive social media experience, designed to keep you con
 
 **Real-Time Communication**:
 - Socket.IO
-
-## 📦 Installation
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/social-media-app.git
-   cd social-media-app
