@@ -1,29 +1,42 @@
-Welcome to the Social Media App – the ultimate platform to connect, share, and interact in real-time!
+ # Social Media App
 
-🚀 Overview
+Welcome to the **Social Media App** – the ultimate platform to connect, share, and interact in real-time!
+
+## 🚀 Overview
+
 Our app offers a comprehensive social media experience, designed to keep you connected with your friends and followers seamlessly. Here's a quick glance at the functionalities:
 
-User Authentication: Secure Signup, Login, and Logout
-Profile Management: Update profile, Freeze/Unfreeze account
-Posts: Create, Delete, Like, and Comment on posts
-Followers: Follow/Unfollow users
-Chat: Real-time text and image messaging with followers
-Status: Real-time seen/unseen messages and online/offline status
-Notifications: Stay updated with a notification bell for new interactions
-📸 Screenshots
+- **User Authentication**: Secure Signup, Login, and Logout
+- **Profile Management**: Update profile, Freeze/Unfreeze account
+- **Posts**: Create, Delete, Like, and Comment on posts
+- **Followers**: Follow/Unfollow users
+- **Chat**: Real-time text and image messaging with followers
+- **Status**: Real-time seen/unseen messages and online/offline status
+- **Notifications**: Stay updated with a notification bell for new interactions
 
+## 📸 Screenshots
 
+![Signup Page](screenshots/signup.png)
+![Home Page](screenshots/home.png)
+![Chat Interface](screenshots/chat.png)
 
-🛠️ Technology Stack
-Frontend:
+## 🛠️ Technology Stack
 
-React.js
-Chakra UI
-Backend:
+**Frontend**:
+- React.js
+- Chakra UI
 
-Node.js
-Express.js
-MongoDB
-Real-Time Communication:
+**Backend**:
+- Node.js
+- Express.js
+- MongoDB
 
-Socket.IO
+**Real-Time Communication**:
+- Socket.IO
+
+## 📦 Installation
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/social-media-app.git
+   cd social-media-app
