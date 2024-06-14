@@ -12,7 +12,7 @@ Our app offers a comprehensive social media experience, designed to keep you con
 - **Followers**: Follow/Unfollow users
 - **Chat**: Real-time text and image messaging with followers
 - **Status**: Real-time seen/unseen messages and online/offline status
-- **Notifications**: Stay updated with a notification bell for new interactions
+- **Notifications**: Stay updated with a notification bell for new messages
 
 ## 📸 Screenshots
 
