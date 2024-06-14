@@ -1,5 +1,5 @@
 import User from "../models/usermodel.js";
-import Post from "../models/postModel.js";
+import Post from "../models/postmodel.js";
 import bcrypt from "bcryptjs";
 import generateTokenAndSetCookie from "../utils/helper/generateTokenAndSetCookie.js";
 import mongoose from "mongoose";
