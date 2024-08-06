@@ -47,7 +47,7 @@ const Conversation = ({ conversation, isOnline }) => {
             )}
             // when u click on any conversation---that conversation is dark mode--seems diffrent---
             bg={
-                selectedConversation?._id === conversation._id ? (colorMode === "light" ? "gray.400" : "gray.dark") : ""
+                selectedConversation?._id === conversation._id ? (colorMode === "light" ? "gray.400" : "gray.600") : ""
             }
         >
             <WrapItem>
