@@ -11,7 +11,7 @@ Connectify is a dynamic social media platform designed to enhance user engagemen
 - **Secure User Authentication and Authorization**  
   Implemented JWT-based authentication to ensure secure login and signup processes.
 
-  ![Authentication](https://via.placeholder.com/600x400?text=Authentication)
+  ![Authentication][(https://github.com/shivamnit123/socialpulse/blob/main/login.png)]
 
 - **Optimized State Management**  
   Leveraged Recoil for efficient state management, delivering a responsive and scalable UI.
