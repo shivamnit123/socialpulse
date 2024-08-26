@@ -24,12 +24,12 @@ Connectify is a dynamic social media platform designed to enhance user engagemen
 - **Dynamic Profile Management**  
   Developed comprehensive user profile functionalities, including updates, account freezing, and privacy settings.
 
-  ![Profile Management](https://via.placeholder.com/600x400?text=Profile+Management)
+  ![Profile Management](https://github.com/shivamnit123/socialpulse/blob/main/userprofile.png)
 
 - **Posts and Social Interactions**  
   Implemented CRUD operations for posts, likes, comments, and user follow/unfollow interactions.
 
-  ![Posts and Social Interactions](https://via.placeholder.com/600x400?text=Posts+and+Interactions)
+  ![Posts and Social Interactions](https://github.com/shivamnit123/socialpulse/blob/main/createpost.png)
 
 ## 💻 Tech Stack
 
