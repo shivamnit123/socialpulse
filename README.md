@@ -16,12 +16,10 @@ Connectify is a dynamic social media platform designed to enhance user engagemen
 - **Optimized State Management**  
   Leveraged Recoil for efficient state management, delivering a responsive and scalable UI.
 
-  ![State Management](https://via.placeholder.com/600x400?text=State+Management)
-
 - **Real-Time Chat**  
   Integrated Socket.IO for real-time messaging and notifications, boosting user interaction.
 
-  ![Real-Time Chat](https://via.placeholder.com/600x400?text=Real-Time+Chat)
+  ![Real-Time Chat](https://github.com/shivamnit123/socialpulse/blob/main/chat.png)
 
 - **Dynamic Profile Management**  
   Developed comprehensive user profile functionalities, including updates, account freezing, and privacy settings.
