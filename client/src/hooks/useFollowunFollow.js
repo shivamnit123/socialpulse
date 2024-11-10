@@ -5,12 +5,16 @@ import { useRecoilValue } from "recoil";
 
 // in this user we check current user id is present or not..and return true or false on the basis  of this
 const useFollowunFollow = (user) => {
+    // fetch current user id
     const currentUser = useRecoilValue(userAtom);
+    //  current status of following ...current user is followed or not---..thats why in intial state it checks---
     const [following, setFollowing] = useState(user.followers.includes(currentUser?._id));
+    // only used for buffering..when we click on button then its started..untill all process is not done..
     const [updating, setUpdating] = useState(false);
     const showToast = useShowToast();
 
     const handleFollowUnfollow = async () => {
+        // check currebnt user is logged in or not
         if (!currentUser) {
             showToast("Error", "Please login to follow", "error");
             return;
@@ -30,6 +34,8 @@ const useFollowunFollow = (user) => {
                 showToast("Error", data.error, "error");
                 return;
             }
+
+            // so there are 2 options i.e follow or unfollow..suppose if it is already follow..then after click it becomes unfollowed
 
             if (following) {
                 showToast("Success", `Unfollowed ${user.name}`, "success");

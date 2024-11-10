@@ -4,12 +4,13 @@ import bcrypt from "bcryptjs";
 import generateTokenAndSetCookie from "../utils/helper/generateTokenAndSetCookie.js";
 import mongoose from "mongoose";
 import { v2 as cloudinary } from "cloudinary";
+
+
 const getUserProfile = async (req, res) => {
     // We will fetch user profile either with username or userId
     // query is either username or userId
     // const { query } = req.params;
     const { query } = req.params;
-
     try {
         let user;
         // if query is userId
@@ -87,6 +88,7 @@ const loginUser = async (req, res) => {
             await user.save();
         }
 
+        //if user log in success, generate a JWT token for the user with a secret key
         generateTokenAndSetCookie(user._id, res);
 
         res.status(200).json({
